@@ -4,12 +4,8 @@ sqlmodel==0.0.8
 psycopg2-binary==2.9.6
 firebase-admin==6.1.0
 uvicorn==0.15.0
-gunicorn
 jsonschema~=4.17.3
-firebase-admin
 python-jose
 starlette
 pyrebase4
-
-
 starlette~=0.27.0
