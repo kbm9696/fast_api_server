@@ -3,7 +3,8 @@ import logging
 from sqlmodel import Session, select, create_engine, SQLModel, Field
 
 # Connect to the PostgreSQL database
-database_url = "postgresql+psycopg2://postgres:9696@192.168.1.9:5432/testdba"
+#database_url = "postgresql+psycopg2://postgres:9696@192.168.1.9:5432/testdba"
+database_url = "postgres://fastapi:xjOAmoeYgDderm2Af5DZgS3PCW9R7uwH@dpg-ci5jielgkuvh0tmd81tg-a.oregon-postgres.render.com/testdba"
 
 class Client(SQLModel, table=True):
     id: int = Field(default=None, primary_key=True)
